@@ -6,8 +6,8 @@ import json
 import numpy
 import shutil
 
-def generate_lab_color(l_range=(60, 90), a_range=(-40, 40), b_range=(-40, 40)):
-    """随机生成一个 LAB 颜色"""
+def generate_lab_color(l_range=(20, 70), a_range=(-40, 40), b_range=(-40, 40)):
+    """随机生成一个更深的 LAB 颜色（避免白色或过亮）"""
     L = np.random.uniform(*l_range)
     a = np.random.uniform(*a_range)
     b = np.random.uniform(*b_range)
@@ -76,4 +76,3 @@ def save_pair(image, meta, img_dir, meta_dir, index):
 
     with open(meta_path, "w", encoding="utf-8") as f:
         json.dump(meta, f, ensure_ascii=False, indent=2)
-

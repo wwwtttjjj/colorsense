@@ -4,6 +4,7 @@ from skimage import color
 from utils import *
 from configs import configs, randomize_config
 import argparse
+from shapes import draw_random_shape, draw_shape_by_name
 def generate_odd_one_out_image(
     grid_size,
     block_size,
@@ -40,17 +41,44 @@ def generate_odd_one_out_image(
     odd_pos = np.random.randint(0, h * w)
     odd_row = odd_pos // w + 1  # 1-indexed
     odd_col = odd_pos % w + 1
-
+    shape_img, shape_name = draw_random_shape(
+    block_size,
+    color=odd_rgb,
+    bgcolor=background_rgb
+    )
+    
     # 绘制
     img = np.ones((img_h, img_w, 3), dtype=np.float32)
     img[:] = np.array(background_rgb, dtype=np.float32)
     for i in range(h):
         for j in range(w):
             idx = i * w + j
+            # 每个格子根据是否 odd 来决定颜色
             color_rgb = odd_rgb if idx == odd_pos else base_rgb
+
+            # 如果 odd 和 base 颜色不同，需要用同一形状但不同颜色
+            # => 重新着色模板，而不是重新选形状
+            # 这样保证形状一致，只改变颜色
+            if idx == odd_pos:
+                # 用相同 shape_name 重新绘制 odd 色的块
+                block_img, _ = draw_shape_by_name(
+                    shape_name,
+                    block_size,
+                    color=color_rgb,
+                    bgcolor=background_rgb
+                )
+            else:
+                # 用相同 shape_name 重新绘制 base 色的块
+                block_img, _ = draw_shape_by_name(
+                    shape_name,
+                    block_size,
+                    color=color_rgb,
+                    bgcolor=background_rgb
+                )
+
             y0 = margin + i * (block_size + gap)
             x0 = margin + j * (block_size + gap)
-            img[y0:y0 + block_size, x0:x0 + block_size, :] = color_rgb
+            img[y0:y0 + block_size, x0:x0 + block_size, :] = block_img
 
     # 元数据
     meta = {
@@ -62,6 +90,7 @@ def generate_odd_one_out_image(
         "odd_position": {"row": int(odd_row), "col": int(odd_col)},  # 左上为 (1,1)
         "base_color_lab": [float(x) for x in base_lab],
         "odd_color_lab": [float(x) for x in odd_lab],
+        "shape": shape_name
     }
     return img, meta
 
@@ -69,6 +98,13 @@ def build_dataset(args):
     img_dir, meta_dir = ensure_dirs(args.difficulty)
     # 2. 生成数据
     for idx in range(1, args.number + 1):
+        cfg = randomize_config(configs)
+
+        # 把 cfg 的键值直接添加到 args
+        for k, v in cfg.items():
+            setattr(args, k, v)
+        args.de = cfg[f"{args.difficulty}_de"]
+        
         img, meta = generate_odd_one_out_image(
             grid_size=(args.grid_y, args.grid_x),
             block_size=args.block_size,
@@ -89,15 +125,10 @@ def build_dataset(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--difficulty", type=str, default="easy", help="which difficulty to generate (easy, medium, hard)")
-    parser.add_argument("--number", type=int, default=2, help="the number of generate images")
-    
+    parser.add_argument("--number", type=int, default=10, help="the number of generate images")
     args = parser.parse_args()
-    cfg = randomize_config(configs)
+    
 
-    # 把 cfg 的键值直接添加到 args
-    for k, v in cfg.items():
-        setattr(args, k, v)
-    args.de = cfg[f"{args.difficulty}_de"]
     
     build_dataset(args)
     
