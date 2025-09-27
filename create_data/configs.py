@@ -3,7 +3,7 @@ configs = {
     "image_size": (600, 600),
     "grid_x" : [5, 11],
     "grid_y" : [5, 11],
-    "easy_de": [5, 30],
+    "de": [5, 30],
     "medium_de": [10, 20],
     "hard_de": [5, 10],
     "margin": 30,

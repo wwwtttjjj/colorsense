@@ -1,0 +1,28 @@
+===== Start batch run =====
+Error while loading conda entry point: conda-libmamba-solver (libarchive.so.20: cannot open shared object file: No such file or directory)
+[INFO] 开始跑 LLaVA-One-Vision-1.5-8B-Instruct on geo
+[INFO] 完成 LLaVA-One-Vision-1.5-8B-Instruct on geo
+[INFO] 开始跑 LLaVA-One-Vision-1.5-8B-Instruct on chart
+[INFO] 完成 LLaVA-One-Vision-1.5-8B-Instruct on chart
+Error while loading conda entry point: conda-libmamba-solver (libarchive.so.20: cannot open shared object file: No such file or directory)
+[INFO] 全部任务完成 ✅
+llava.sh: line 7: =============: command not found
+Error while loading conda entry point: conda-libmamba-solver (libarchive.so.20: cannot open shared object file: No such file or directory)
+[INFO] 开始跑 llava-v1.6-34b on geo
+[INFO] 完成 llava-v1.6-34b on geo
+[INFO] 开始跑 llava-v1.6-34b on chart
+[INFO] 完成 llava-v1.6-34b on chart
+Error while loading conda entry point: conda-libmamba-solver (libarchive.so.20: cannot open shared object file: No such file or directory)
+intervl3_5.sh: line 7: =============: command not found
+Error while loading conda entry point: conda-libmamba-solver (libarchive.so.20: cannot open shared object file: No such file or directory)
+[INFO] 开始跑 InternVL3_5-38B-Instruct on geo
+[INFO] 完成 InternVL3_5-38B-Instruct on geo
+[INFO] 开始跑 InternVL3_5-38B-Instruct on chart
+[INFO] 完成 InternVL3_5-38B-Instruct on chart
+Error while loading conda entry point: conda-libmamba-solver (libarchive.so.20: cannot open shared object file: No such file or directory)
+[INFO] 全部任务完成 ✅
+qwen.sh: line 10: =============: command not found
+Error while loading conda entry point: conda-libmamba-solver (libarchive.so.20: cannot open shared object file: No such file or directory)
+[INFO] 开始跑 Qwen2.5-VL-7B-Instruct on geo
+[INFO] 完成 Qwen2.5-VL-7B-Instruct on geo
+[INFO] 开始跑 Qwen2.5-VL-7B-Instruct on chart

@@ -1,0 +1,402 @@
+[
+    {
+        "image_id": "a3fb8c15-3011-4950-957a-a3840ddb3315",
+        "image_name": "image_13.png",
+        "prompt": "\n    You are given an image containing many identical triangles \n    arranged in an 8×6 grid. Each grid cell contains one triangle. \n    All triangles have the same shape and size, but exactly one triangle has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the triangle with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 8, Column 4",
+        "extract_answer": "No answer found",
+        "answer": "Row 8, Column 4"
+    },
+    {
+        "image_id": "b59c2897-75b3-4543-9f18-a4983db2405c",
+        "image_name": "image_1.png",
+        "prompt": "\n    You are given an image containing many identical triangles \n    arranged in an 11×7 grid. Each grid cell contains one triangle. \n    All triangles have the same shape and size, but exactly one triangle has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the triangle with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 8, Column 4",
+        "extract_answer": "No answer found",
+        "answer": "Row 9, Column 4"
+    },
+    {
+        "image_id": "7f7f9fef-d4b1-4928-b656-d02c3a7904c3",
+        "image_name": "image_33.png",
+        "prompt": "\n    You are given an image containing many identical squares \n    arranged in an 5×10 grid. Each grid cell contains one square. \n    All squares have the same shape and size, but exactly one square has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the square with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 4, Column 3",
+        "extract_answer": "No answer found",
+        "answer": "Row 4, Column 3"
+    },
+    {
+        "image_id": "9b18a18f-47bd-41fe-a5c3-ac0ebde3089e",
+        "image_name": "image_27.png",
+        "prompt": "\n    You are given an image containing many identical squares \n    arranged in an 6×11 grid. Each grid cell contains one square. \n    All squares have the same shape and size, but exactly one square has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the square with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 1, Column 8",
+        "extract_answer": "No answer found",
+        "answer": "Row 1, Column 8"
+    },
+    {
+        "image_id": "b2f0d5ab-4f74-4d10-b2c8-468e3098948c",
+        "image_name": "image_50.png",
+        "prompt": "\n    You are given an image containing many identical shoes \n    arranged in an 10×9 grid. Each grid cell contains one shoe. \n    All shoes have the same shape and size, but exactly one shoe has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the shoe with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 8, Column 1",
+        "extract_answer": "No answer found",
+        "answer": "Row 8, Column 1"
+    },
+    {
+        "image_id": "512e4db9-3208-47a8-82ee-f8ee88e2f536",
+        "image_name": "image_42.png",
+        "prompt": "\n    You are given an image containing many identical shoes \n    arranged in an 7×6 grid. Each grid cell contains one shoe. \n    All shoes have the same shape and size, but exactly one shoe has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the shoe with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 5, Column 5",
+        "extract_answer": "No answer found",
+        "answer": "Row 5, Column 5"
+    },
+    {
+        "image_id": "4106b0fc-67e3-4471-b174-274d7764bb96",
+        "image_name": "image_41.png",
+        "prompt": "\n    You are given an image containing many identical shoes \n    arranged in an 5×11 grid. Each grid cell contains one shoe. \n    All shoes have the same shape and size, but exactly one shoe has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the shoe with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 5, Column 11",
+        "extract_answer": "No answer found",
+        "answer": "Row 5, Column 11"
+    },
+    {
+        "image_id": "a17288fc-a562-454e-901a-63d0c65c83cc",
+        "image_name": "image_29.png",
+        "prompt": "\n    You are given an image containing many identical squares \n    arranged in an 6×11 grid. Each grid cell contains one square. \n    All squares have the same shape and size, but exactly one square has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the square with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 5, Column 7",
+        "extract_answer": "No answer found",
+        "answer": "Row 5, Column 7"
+    },
+    {
+        "image_id": "dbfa5f1e-449d-42f5-a7a0-5ea1cb3ef43f",
+        "image_name": "image_6.png",
+        "prompt": "\n    You are given an image containing many identical circles \n    arranged in an 11×11 grid. Each grid cell contains one circle. \n    All circles have the same shape and size, but exactly one circle has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the circle with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 8, Column 4",
+        "extract_answer": "No answer found",
+        "answer": "Row 8, Column 4"
+    },
+    {
+        "image_id": "59dcad5a-6f35-451b-ba60-2a5e5081e036",
+        "image_name": "image_3.png",
+        "prompt": "\n    You are given an image containing many identical triangles \n    arranged in an 11×7 grid. Each grid cell contains one triangle. \n    All triangles have the same shape and size, but exactly one triangle has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the triangle with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 4, Column 6",
+        "extract_answer": "No answer found",
+        "answer": "Row 3, Column 4"
+    },
+    {
+        "image_id": "f752b67c-aaf0-4a76-b55d-3de3250c69a2",
+        "image_name": "image_46.png",
+        "prompt": "\n    You are given an image containing many identical triangles \n    arranged in an 9×10 grid. Each grid cell contains one triangle. \n    All triangles have the same shape and size, but exactly one triangle has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the triangle with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 6, Column 4",
+        "extract_answer": "No answer found",
+        "answer": "Row 6, Column 4"
+    },
+    {
+        "image_id": "b478a8e7-92a5-49a9-905f-54987118c0a0",
+        "image_name": "image_22.png",
+        "prompt": "\n    You are given an image containing many identical circles \n    arranged in an 8×6 grid. Each grid cell contains one circle. \n    All circles have the same shape and size, but exactly one circle has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the circle with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 2, Column 6",
+        "extract_answer": "No answer found",
+        "answer": "Row 2, Column 6"
+    },
+    {
+        "image_id": "592824d5-7d0a-41e1-bfde-0c6da31eb916",
+        "image_name": "image_10.png",
+        "prompt": "\n    You are given an image containing many identical circles \n    arranged in an 11×8 grid. Each grid cell contains one circle. \n    All circles have the same shape and size, but exactly one circle has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the circle with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 3, Column 1",
+        "extract_answer": "No answer found",
+        "answer": "Row 3, Column 1"
+    },
+    {
+        "image_id": "c77d5b59-b3d9-4f01-844b-55846a1d542c",
+        "image_name": "image_34.png",
+        "prompt": "\n    You are given an image containing many identical squares \n    arranged in an 5×9 grid. Each grid cell contains one square. \n    All squares have the same shape and size, but exactly one square has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the square with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 4, Column 2",
+        "extract_answer": "No answer found",
+        "answer": "Row 4, Column 2"
+    },
+    {
+        "image_id": "a07beb86-b199-440e-b354-1c640075986f",
+        "image_name": "image_16.png",
+        "prompt": "\n    You are given an image containing many identical circles \n    arranged in an 11×11 grid. Each grid cell contains one circle. \n    All circles have the same shape and size, but exactly one circle has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the circle with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 3, Column 7",
+        "extract_answer": "No answer found",
+        "answer": "Row 2, Column 7"
+    },
+    {
+        "image_id": "3a087359-a297-4846-8f53-746fc9dc768f",
+        "image_name": "image_48.png",
+        "prompt": "\n    You are given an image containing many identical circles \n    arranged in an 5×11 grid. Each grid cell contains one circle. \n    All circles have the same shape and size, but exactly one circle has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the circle with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 1, Column 9",
+        "extract_answer": "No answer found",
+        "answer": "Row 1, Column 8"
+    },
+    {
+        "image_id": "199d732c-a139-4690-a503-183e3b7cdd42",
+        "image_name": "image_2.png",
+        "prompt": "\n    You are given an image containing many identical squares \n    arranged in an 7×7 grid. Each grid cell contains one square. \n    All squares have the same shape and size, but exactly one square has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the square with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 4, Column 2",
+        "extract_answer": "No answer found",
+        "answer": "Row 4, Column 2"
+    },
+    {
+        "image_id": "89d52567-9173-4ba0-8b18-04aa6fa50ed6",
+        "image_name": "image_11.png",
+        "prompt": "\n    You are given an image containing many identical circles \n    arranged in an 10×10 grid. Each grid cell contains one circle. \n    All circles have the same shape and size, but exactly one circle has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the circle with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 9, Column 1",
+        "extract_answer": "No answer found",
+        "answer": "Row 9, Column 1"
+    },
+    {
+        "image_id": "78a740a3-a3aa-458b-8ba5-ce82c1b36a82",
+        "image_name": "image_44.png",
+        "prompt": "\n    You are given an image containing many identical squares \n    arranged in an 9×8 grid. Each grid cell contains one square. \n    All squares have the same shape and size, but exactly one square has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the square with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 6, Column 7",
+        "extract_answer": "No answer found",
+        "answer": "Row 5, Column 6"
+    },
+    {
+        "image_id": "a63c0e26-896e-40fd-850c-e6364c0a0c1d",
+        "image_name": "image_26.png",
+        "prompt": "\n    You are given an image containing many identical squares \n    arranged in an 10×5 grid. Each grid cell contains one square. \n    All squares have the same shape and size, but exactly one square has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the square with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 6, Column 1",
+        "extract_answer": "No answer found",
+        "answer": "Row 5, Column 1"
+    },
+    {
+        "image_id": "6a11356a-3713-4625-ac18-6d2adb75ba61",
+        "image_name": "image_43.png",
+        "prompt": "\n    You are given an image containing many identical shoes \n    arranged in an 11×11 grid. Each grid cell contains one shoe. \n    All shoes have the same shape and size, but exactly one shoe has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the shoe with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 10, Column 1",
+        "extract_answer": "No answer found",
+        "answer": "Row 10, Column 1"
+    },
+    {
+        "image_id": "d3d90791-7c13-4049-a74d-09379560e261",
+        "image_name": "image_47.png",
+        "prompt": "\n    You are given an image containing many identical squares \n    arranged in an 8×6 grid. Each grid cell contains one square. \n    All squares have the same shape and size, but exactly one square has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the square with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 8, Column 2",
+        "extract_answer": "No answer found",
+        "answer": "Row 8, Column 2"
+    },
+    {
+        "image_id": "ef1952d9-9224-4db2-8617-a3049deefd58",
+        "image_name": "image_9.png",
+        "prompt": "\n    You are given an image containing many identical circles \n    arranged in an 10×9 grid. Each grid cell contains one circle. \n    All circles have the same shape and size, but exactly one circle has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the circle with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 2, Column 3",
+        "extract_answer": "No answer found",
+        "answer": "Row 2, Column 3"
+    },
+    {
+        "image_id": "98e55854-87b1-456b-8e9a-25a8430163cf",
+        "image_name": "image_14.png",
+        "prompt": "\n    You are given an image containing many identical triangles \n    arranged in an 7×6 grid. Each grid cell contains one triangle. \n    All triangles have the same shape and size, but exactly one triangle has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the triangle with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 2, Column 6",
+        "extract_answer": "No answer found",
+        "answer": "Row 2, Column 5"
+    },
+    {
+        "image_id": "fb916ced-95b0-4ed9-b6ca-9082efc0bc58",
+        "image_name": "image_20.png",
+        "prompt": "\n    You are given an image containing many identical circles \n    arranged in an 5×6 grid. Each grid cell contains one circle. \n    All circles have the same shape and size, but exactly one circle has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the circle with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 3, Column 4",
+        "extract_answer": "No answer found",
+        "answer": "Row 3, Column 4"
+    },
+    {
+        "image_id": "911660ed-3c61-47d0-b318-22b31c6f455e",
+        "image_name": "image_23.png",
+        "prompt": "\n    You are given an image containing many identical shoes \n    arranged in an 11×8 grid. Each grid cell contains one shoe. \n    All shoes have the same shape and size, but exactly one shoe has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the shoe with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 9, Column 7",
+        "extract_answer": "No answer found",
+        "answer": "Row 10, Column 6"
+    },
+    {
+        "image_id": "32196c5f-8177-49a2-ad71-2a185e51efde",
+        "image_name": "image_12.png",
+        "prompt": "\n    You are given an image containing many identical squares \n    arranged in an 10×10 grid. Each grid cell contains one square. \n    All squares have the same shape and size, but exactly one square has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the square with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 10, Column 5",
+        "extract_answer": "No answer found",
+        "answer": "Row 10, Column 5"
+    },
+    {
+        "image_id": "bb85fb18-4ea8-487a-a2bf-f62b3e486863",
+        "image_name": "image_24.png",
+        "prompt": "\n    You are given an image containing many identical squares \n    arranged in an 9×9 grid. Each grid cell contains one square. \n    All squares have the same shape and size, but exactly one square has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the square with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 3, Column 3",
+        "extract_answer": "No answer found",
+        "answer": "Row 3, Column 3"
+    },
+    {
+        "image_id": "78bf06a3-b6f6-4f45-81d5-54fac158ef97",
+        "image_name": "image_28.png",
+        "prompt": "\n    You are given an image containing many identical triangles \n    arranged in an 6×10 grid. Each grid cell contains one triangle. \n    All triangles have the same shape and size, but exactly one triangle has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the triangle with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 3, Column 8",
+        "extract_answer": "No answer found",
+        "answer": "Row 3, Column 8"
+    },
+    {
+        "image_id": "68b8c882-35b2-4b29-aa47-b84281e42047",
+        "image_name": "image_15.png",
+        "prompt": "\n    You are given an image containing many identical squares \n    arranged in an 5×9 grid. Each grid cell contains one square. \n    All squares have the same shape and size, but exactly one square has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the square with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 4, Column 1",
+        "extract_answer": "No answer found",
+        "answer": "Row 4, Column 1"
+    },
+    {
+        "image_id": "cdae42a0-d021-4d96-893b-d693da56a785",
+        "image_name": "image_8.png",
+        "prompt": "\n    You are given an image containing many identical shoes \n    arranged in an 11×11 grid. Each grid cell contains one shoe. \n    All shoes have the same shape and size, but exactly one shoe has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the shoe with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 6, Column 6",
+        "extract_answer": "No answer found",
+        "answer": "Row 9, Column 10"
+    },
+    {
+        "image_id": "9a5340f8-4adc-4d3f-896f-2a03741a59d1",
+        "image_name": "image_5.png",
+        "prompt": "\n    You are given an image containing many identical circles \n    arranged in an 5×6 grid. Each grid cell contains one circle. \n    All circles have the same shape and size, but exactly one circle has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the circle with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 5, Column 5",
+        "extract_answer": "No answer found",
+        "answer": "Row 5, Column 5"
+    },
+    {
+        "image_id": "814605ee-fbba-418f-9774-df40cb5db66b",
+        "image_name": "image_25.png",
+        "prompt": "\n    You are given an image containing many identical circles \n    arranged in an 9×9 grid. Each grid cell contains one circle. \n    All circles have the same shape and size, but exactly one circle has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the circle with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 6, Column 5",
+        "extract_answer": "No answer found",
+        "answer": "Row 6, Column 6"
+    },
+    {
+        "image_id": "6cf17611-74d6-4f2b-b684-b9791519b1cd",
+        "image_name": "image_36.png",
+        "prompt": "\n    You are given an image containing many identical squares \n    arranged in an 10×8 grid. Each grid cell contains one square. \n    All squares have the same shape and size, but exactly one square has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the square with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 6, Column 4",
+        "extract_answer": "No answer found",
+        "answer": "Row 6, Column 4"
+    },
+    {
+        "image_id": "4c64532a-7eeb-48d8-8d02-0377e6ef1eaf",
+        "image_name": "image_39.png",
+        "prompt": "\n    You are given an image containing many identical squares \n    arranged in an 7×6 grid. Each grid cell contains one square. \n    All squares have the same shape and size, but exactly one square has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the square with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 4, Column 5",
+        "extract_answer": "No answer found",
+        "answer": "Row 3, Column 5"
+    },
+    {
+        "image_id": "d510dcd6-a86b-4674-82d0-4e4a1d5e9e53",
+        "image_name": "image_18.png",
+        "prompt": "\n    You are given an image containing many identical squares \n    arranged in an 9×8 grid. Each grid cell contains one square. \n    All squares have the same shape and size, but exactly one square has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the square with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 5, Column 4",
+        "extract_answer": "No answer found",
+        "answer": "Row 4, Column 4"
+    },
+    {
+        "image_id": "72bd27ba-f6ae-4476-8270-1fde0f9e0e4e",
+        "image_name": "image_31.png",
+        "prompt": "\n    You are given an image containing many identical squares \n    arranged in an 6×5 grid. Each grid cell contains one square. \n    All squares have the same shape and size, but exactly one square has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the square with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 6, Column 5",
+        "extract_answer": "No answer found",
+        "answer": "Row 6, Column 5"
+    },
+    {
+        "image_id": "00c80228-2fd4-42d7-ab78-9c0bd807cb4e",
+        "image_name": "image_19.png",
+        "prompt": "\n    You are given an image containing many identical circles \n    arranged in an 5×5 grid. Each grid cell contains one circle. \n    All circles have the same shape and size, but exactly one circle has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the circle with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 5, Column 4",
+        "extract_answer": "No answer found",
+        "answer": "Row 5, Column 4"
+    },
+    {
+        "image_id": "cea48cab-4cd9-49bf-a56a-a64d14f047d9",
+        "image_name": "image_37.png",
+        "prompt": "\n    You are given an image containing many identical circles \n    arranged in an 11×7 grid. Each grid cell contains one circle. \n    All circles have the same shape and size, but exactly one circle has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the circle with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 6, Column 4",
+        "extract_answer": "No answer found",
+        "answer": "Row 4, Column 1"
+    },
+    {
+        "image_id": "a3227e03-666f-49a8-a7e4-15aaea3b6f00",
+        "image_name": "image_38.png",
+        "prompt": "\n    You are given an image containing many identical squares \n    arranged in an 6×10 grid. Each grid cell contains one square. \n    All squares have the same shape and size, but exactly one square has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the square with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 1, Column 3",
+        "extract_answer": "No answer found",
+        "answer": "Row 1, Column 3"
+    },
+    {
+        "image_id": "bcfb0f02-b2ed-4f74-a0d3-b143e6e8196b",
+        "image_name": "image_4.png",
+        "prompt": "\n    You are given an image containing many identical shoes \n    arranged in an 8×9 grid. Each grid cell contains one shoe. \n    All shoes have the same shape and size, but exactly one shoe has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the shoe with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 4, Column 5",
+        "extract_answer": "No answer found",
+        "answer": "Row 7, Column 2"
+    },
+    {
+        "image_id": "e4dd4020-8f34-405a-a8ae-66edfa3ca609",
+        "image_name": "image_30.png",
+        "prompt": "\n    You are given an image containing many identical squares \n    arranged in an 10×10 grid. Each grid cell contains one square. \n    All squares have the same shape and size, but exactly one square has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the square with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 5, Column 6",
+        "extract_answer": "No answer found",
+        "answer": "Row 5, Column 7"
+    },
+    {
+        "image_id": "7e4e93a9-4e14-466b-b207-0fceac0c0093",
+        "image_name": "image_45.png",
+        "prompt": "\n    You are given an image containing many identical circles \n    arranged in an 6×5 grid. Each grid cell contains one circle. \n    All circles have the same shape and size, but exactly one circle has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the circle with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 2, Column 2",
+        "extract_answer": "No answer found",
+        "answer": "Row 2, Column 2"
+    },
+    {
+        "image_id": "095fece7-d4cc-489b-94a3-f34d817a507a",
+        "image_name": "image_21.png",
+        "prompt": "\n    You are given an image containing many identical circles \n    arranged in an 10×6 grid. Each grid cell contains one circle. \n    All circles have the same shape and size, but exactly one circle has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the circle with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 8, Column 4",
+        "extract_answer": "No answer found",
+        "answer": "Row 8, Column 3"
+    },
+    {
+        "image_id": "fa159a06-da9c-48b1-b807-00e77b1167f7",
+        "image_name": "image_7.png",
+        "prompt": "\n    You are given an image containing many identical circles \n    arranged in an 10×6 grid. Each grid cell contains one circle. \n    All circles have the same shape and size, but exactly one circle has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the circle with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 10, Column 1",
+        "extract_answer": "No answer found",
+        "answer": "Row 10, Column 1"
+    },
+    {
+        "image_id": "a3a77cb7-7cd4-4366-8307-6369a961dd82",
+        "image_name": "image_40.png",
+        "prompt": "\n    You are given an image containing many identical triangles \n    arranged in an 6×8 grid. Each grid cell contains one triangle. \n    All triangles have the same shape and size, but exactly one triangle has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the triangle with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 5, Column 4",
+        "extract_answer": "No answer found",
+        "answer": "Row 5, Column 4"
+    },
+    {
+        "image_id": "952619f4-34c2-462c-9f10-0d8e84039482",
+        "image_name": "image_32.png",
+        "prompt": "\n    You are given an image containing many identical triangles \n    arranged in an 8×11 grid. Each grid cell contains one triangle. \n    All triangles have the same shape and size, but exactly one triangle has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the triangle with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 5, Column 3",
+        "extract_answer": "No answer found",
+        "answer": "Row 5, Column 3"
+    },
+    {
+        "image_id": "4be0c119-7a49-435a-93f5-8171b6eadf11",
+        "image_name": "image_17.png",
+        "prompt": "\n    You are given an image containing many identical shoes \n    arranged in an 5×10 grid. Each grid cell contains one shoe. \n    All shoes have the same shape and size, but exactly one shoe has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the shoe with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 1, Column 2",
+        "extract_answer": "No answer found",
+        "answer": "Row 1, Column 2"
+    },
+    {
+        "image_id": "822a9717-4dac-4de9-a811-12e7fbd3b68b",
+        "image_name": "image_35.png",
+        "prompt": "\n    You are given an image containing many identical shoes \n    arranged in an 5×5 grid. Each grid cell contains one shoe. \n    All shoes have the same shape and size, but exactly one shoe has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the shoe with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 4, Column 3",
+        "extract_answer": "No answer found",
+        "answer": "Row 5, Column 3"
+    },
+    {
+        "image_id": "cd25da3d-1cca-4cbb-95d7-3db21865ecf5",
+        "image_name": "image_49.png",
+        "prompt": "\n    You are given an image containing many identical shoes \n    arranged in an 5×11 grid. Each grid cell contains one shoe. \n    All shoes have the same shape and size, but exactly one shoe has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the shoe with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 2, Column 1",
+        "extract_answer": "No answer found",
+        "answer": "Row 2, Column 1"
+    }
+]

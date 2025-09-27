@@ -37,13 +37,13 @@ def lab_to_rgb(lab):
     rgb = color.lab2rgb(lab[np.newaxis, np.newaxis, :])
     return np.clip(rgb[0, 0, :], 0, 1)
 
-def ensure_dirs(difficulty_name: str):
+def ensure_dirs(data_type: str):
     """
     创建 难度/image 与 难度/metadata 目录
     - 若已存在，则先清空再重新创建
     """
-    img_dir = os.path.join(difficulty_name, "image")
-    meta_dir = os.path.join(difficulty_name, "metadata")
+    img_dir = os.path.join(data_type, "image")
+    meta_dir = os.path.join(data_type, "metadata")
 
     # 如果存在旧目录则先删除
     for d in [img_dir, meta_dir]:

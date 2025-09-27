@@ -95,7 +95,7 @@ def generate_odd_one_out_image(
     return img, meta
 
 def build_dataset(args):
-    img_dir, meta_dir = ensure_dirs(args.difficulty)
+    img_dir, meta_dir = ensure_dirs(args.data_type)
     # 2. 生成数据
     for idx in range(1, args.number + 1):
         cfg = randomize_config(configs)
@@ -103,7 +103,7 @@ def build_dataset(args):
         # 把 cfg 的键值直接添加到 args
         for k, v in cfg.items():
             setattr(args, k, v)
-        args.de = cfg[f"{args.difficulty}_de"]
+        args.de = cfg["de"]
         
         img, meta = generate_odd_one_out_image(
             grid_size=(args.grid_y, args.grid_x),
@@ -116,19 +116,19 @@ def build_dataset(args):
             margin=args.margin
         )
 
-        meta["difficulty"] = args.difficulty
         meta["index"] = idx
 
         save_pair(img, meta, img_dir, meta_dir, idx)
-    print(f"Generated {args.number} images for difficulty '{args.difficulty}' in folder '{args.difficulty}'.")
+    print(f"Generated {args.number} images for in folder.")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--difficulty", type=str, default="easy", help="which difficulty to generate (easy, medium, hard)")
+    # parser.add_argument("--difficulty", type=str, default="easy", help="which difficulty to generate (easy, medium, hard)")
     parser.add_argument("--number", type=int, default=10, help="the number of generate images")
+    parser.add_argument("--data_type", type=str, default="test_data", help="the output file of generate images")
+    
     args = parser.parse_args()
     
-
     
     build_dataset(args)
     

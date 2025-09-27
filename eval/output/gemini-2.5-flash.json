@@ -1,0 +1,50 @@
+[
+    {
+        "image_id": "9b18a18f-47bd-41fe-a5c3-ac0ebde3089e",
+        "image_name": "image_27.png",
+        "prompt": "\n    You are given an image containing many identical squares \n    arranged in an 6×11 grid. Each grid cell contains one object. \n    All objects have the same shape and size, but exactly one object has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the object with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 1, Column 7",
+        "extract_answer": "No answer found",
+        "answer": "Row 1, Column 8"
+    },
+    {
+        "image_id": "a3fb8c15-3011-4950-957a-a3840ddb3315",
+        "image_name": "image_13.png",
+        "prompt": "\n    You are given an image containing many identical triangles \n    arranged in an 8×6 grid. Each grid cell contains one object. \n    All objects have the same shape and size, but exactly one object has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the object with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 8, Column 4",
+        "extract_answer": "No answer found",
+        "answer": "Row 8, Column 4"
+    },
+    {
+        "image_id": "7f7f9fef-d4b1-4928-b656-d02c3a7904c3",
+        "image_name": "image_33.png",
+        "prompt": "\n    You are given an image containing many identical squares \n    arranged in an 5×10 grid. Each grid cell contains one object. \n    All objects have the same shape and size, but exactly one object has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the object with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 4, Column 4",
+        "extract_answer": "No answer found",
+        "answer": "Row 4, Column 3"
+    },
+    {
+        "image_id": "512e4db9-3208-47a8-82ee-f8ee88e2f536",
+        "image_name": "image_42.png",
+        "prompt": "\n    You are given an image containing many identical shoes \n    arranged in an 7×6 grid. Each grid cell contains one object. \n    All objects have the same shape and size, but exactly one object has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the object with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 5, Column 4",
+        "extract_answer": "No answer found",
+        "answer": "Row 5, Column 5"
+    },
+    {
+        "image_id": "4106b0fc-67e3-4471-b174-274d7764bb96",
+        "image_name": "image_41.png",
+        "prompt": "\n    You are given an image containing many identical shoes \n    arranged in an 5×11 grid. Each grid cell contains one object. \n    All objects have the same shape and size, but exactly one object has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the object with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 5, Column 11",
+        "extract_answer": "No answer found",
+        "answer": "Row 5, Column 11"
+    },
+    {
+        "image_id": "a17288fc-a562-454e-901a-63d0c65c83cc",
+        "image_name": "image_29.png",
+        "prompt": "\n    You are given an image containing many identical squares \n    arranged in an 6×11 grid. Each grid cell contains one object. \n    All objects have the same shape and size, but exactly one object has a \n    different color compared to the others.\n\n    Your task:\n    - Carefully examine the grid.\n    - Identify the grid position (row and column) of the object with the different color.\n    - Counting starts from the top-left corner, which is Row 1, Column 1.\n\n    Output format:\n    - Answer strictly in the form: \"Row X, Column Y\"\n    - Do not provide any additional explanation or text.\n    ",
+        "predict_answer": "Row 6, Column 5",
+        "extract_answer": "No answer found",
+        "answer": "Row 5, Column 7"
+    }
+]

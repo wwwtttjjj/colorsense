@@ -9,7 +9,7 @@ def set_current_char(ch):
     global _current_char
     _current_char = ch
 
-@register_shape("char")
+# @register_shape("char")
 def draw_char(block_size, color=(0,0,0), bgcolor=(1,1,1)):
     img = Image.new("RGB", (block_size, block_size),
                     tuple(int(c*255) for c in bgcolor))
